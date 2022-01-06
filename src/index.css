@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@media(prefers-reduced-motion:no-prefrence){
+
+}
+
+.App-header{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App{
+  text-align: center;
+}
+
+@media(max-width:700px){
+  .card{
+    width: 100%;
+    height: 290px;
+    margin-right: 0;
+    float: none;
+  }
+  .card .card__inner,
+  .card .card__back{
+    height: 290px;
+  }
+}
+
+.card__small{
+  font-size: 70px;
+  text-align: center;
+} 
+
+.card__back span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.card__name{
+  font-size: 32px;
+  line-height: 0.9;
+  font-weight: 1000;
+  margin-top: 25px;
+  /* margin-left:30 px; */
+  margin-right: 30px;
+}
+.card__name span{
+  font-size: 14px;
+}
+ .card__total{
+  font-size: 50px;
+  margin: 0 8px 0 0;
+  font-weight: 200px;
+  margin-left: 10px;
+  margin-top: 20px;
+
+} 
+.centerDiv{
+  background-color: rgb(68, 65, 65); 
+  height: 100vh;
+  /* padding: 5px; */
+  text-align: center;
+
+}
+
+
+.card{
+  width: 310px;
+  height: 210px;
+  border-radius: 23px;
+  text-align: center;
+  display: flex;
+  flex-wrap:wrap;
+  color: white;
+  margin-top: 30px;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 2rem;
+  text-shadow: 12px 12px 20px #000000;
+  background-color: rgb(15, 15, 15);
+  box-shadow:10px 10px 5px #ddd;
+   
+  
+
+}
+.u{
+  margin-left: 100px;
+  text-align: center;
+  
+}
+.card__name{
+  text-align: center;
+  margin-left: 50px;
+}
+.color{
+  background-color: rgb(230, 112, 33);
+
+}
+.color1{
+  background-color: green;
+}
+.color2{
+  background-color:rgb(71, 48, 48);
+}
+.color3{
+  background-color: rgb(160, 8, 8);
+}
+.color4{
+  background-color: rgb(71, 17, 17);
+}
+.color5{
+  background-color: rgb(85, 48, 16);
+}
+.ft{
+  background-color: rgb(133, 88, 175);
+  text-align: center;
+  height: 400px;
+}
+
+/* Header page */
+.head{
+  background-color: rgb(118, 248, 248);
+  text-align: center;
+  height: 130px;
+  /* font-weight: 500px; */
+  /* font-weight: 900; */
+  color: red;
+  /* font-size: 100px; */
+  box-shadow:10px 10px 5px #ddd;
+  text-shadow: 12px 12px 20px #000000;
+  font-size: 32px;
+  line-height: 0.9;
+  font-weight: 1000;
+  /* margin-top: 25px; */
+  /* margin-left:30 px; */
+  /* margin-right: 30px; */
+}
+.live{
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  padding: 3px;
+  /* margin-top: 10px; */
+}
