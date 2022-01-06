@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Api from "./Api";
-import Footerd from "./Footerd";
 import Header from "./Header";
 
 ReactDOM.render(
@@ -14,7 +13,7 @@ ReactDOM.render(
   <>
   <Header/>
   <Api/>
-  <Footerd/>
+  
 
 
   </>,
